@@ -1,0 +1,10 @@
+{
+  "name": "music-lighting-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shreyas's local HP, Legion and Razer lighting controller",
+  "scripts": {
+    "test": "node --check control-panel/app.js && node Test-ControlPanel.cjs"
+  },
+  "devDependencies": { "jsdom": "26.1.0" }
+}
